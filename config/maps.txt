@@ -73,3 +73,7 @@ endmap
 map ouroboros
 	votable
 endmap
+
+map echelonoutpost
+	votable
+endmap
