@@ -424,6 +424,7 @@ monkestation edit end */
 	message = "sniffs."
 	message_mime = "sniffs silently."
 	emote_type = EMOTE_VISIBLE | EMOTE_AUDIBLE
+	sound = pick('monkestation/sound/voice/emote/sniff1.ogg','monkestation/sound/voice/emote/sniff2.ogg') // MONKESTATION ADDITION
 
 /datum/emote/living/sniff/run_emote(mob/user, params, type_override, intentional)
 	. = ..()
