@@ -3,6 +3,7 @@
 	"map_name": "Echelon Outpost",
 	"map_path": "map_files/EchelonOutpost",
 	"map_file": "EchelonOutpost.dmm",
+	"space_ruin_levels": 3,
 	"shuttles": {
 		"cargo": "cargo_box",
 		"ferry": "ferry_fancy",
@@ -12,15 +13,17 @@
 	"traits": [
 		{
 			"Up": true,
-			"Baseturf": "/turf/open/misc/asteroid/airless",
-			"Linkage": "Cross"
+			"Linkage": "Cross",
+			"Bombcap Multiplier": 0.75
 		},
 		{
 			"Down": true,
 			"Baseturf": "/turf/open/openspace",
-			"Linkage": "Cross"
+			"Linkage": "Cross",
+			"Bombcap Multiplier": 0.75
 		}
 	],
+	"orbit_shift_replacement": "Attention crew, it appears your outpost's orbit shifted into more dangerous territory. Be aware, and act accordingly.",
 	"job_changes": {
 		"Captain": {
 			"special_charter": "asteroid"
