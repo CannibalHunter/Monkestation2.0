@@ -466,4 +466,4 @@
 	icon_gib = null
 	gold_core_spawnable = NO_SPAWN
 	ai_controller = /datum/ai_controller/basic_controller/
-	ckeywhitelist = list("Cerebresec")
+	ckeywhitelist = list("Flava-Floh")
