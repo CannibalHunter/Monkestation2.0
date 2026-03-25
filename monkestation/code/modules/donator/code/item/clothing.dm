@@ -971,3 +971,12 @@
 	inhand_icon_state = null
 	flags_cover = MASKCOVERSEYES
 	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
+
+/obj/item/clothing/suit/costume/tsukihime_executor
+	name = "executor outfit"
+	desc = "A holy blue dress."
+	icon = 'monkestation/code/modules/donator/icons/obj/clothing.dmi'
+	worn_icon = 'monkestation/code/modules/donator/icons/mob/clothing.dmi'
+	icon_state = "tsukihime_executor"
+	inhand_icon_state = null
+	body_parts_covered = CHEST|GROIN

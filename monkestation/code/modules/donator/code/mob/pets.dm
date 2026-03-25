@@ -467,3 +467,15 @@
 	gold_core_spawnable = NO_SPAWN
 	ai_controller = /datum/ai_controller/basic_controller/
 	ckeywhitelist = list("Flava-Floh")
+
+/mob/living/basic/pet/yato_neco_arc
+	name = "\improperNeco-Arc" // Neko-Aruku
+	desc = "Woah dude... It's that really silly cat I saw on the terminal man..."
+	icon = 'monkestation/code/modules/donator/icons/mob/pets.dmi'
+	icon_state = "neco_arc"
+	icon_living = "neco_arc"
+	icon_dead = "neco_arc-dead"
+	icon_gib = null
+	gold_core_spawnable = NO_SPAWN
+	ai_controller = /datum/ai_controller/basic_controller/
+	ckeywhitelist = list("Yatosamasensei")
