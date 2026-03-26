@@ -469,7 +469,7 @@
 	ckeywhitelist = list("Flava-Floh")
 
 /mob/living/basic/pet/yato_neco_arc
-	name = "\improperNeco-Arc" // Neko-Aruku
+	name = "\improper Neco-Arc" // Neko-Aruku
 	desc = "Woah dude... It's that really silly cat I saw on the terminal man..."
 	icon = 'monkestation/code/modules/donator/icons/mob/pets.dmi'
 	icon_state = "neco_arc"

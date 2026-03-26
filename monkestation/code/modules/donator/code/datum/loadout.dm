@@ -1120,3 +1120,10 @@
 	ckeywhitelist = list("Yatosamasensei")
 	donator_only = TRUE
 	requires_purchase = FALSE
+
+// Ravin Hobo
+/datum/loadout_item/neck/red_regal_mantle
+	name = "Red Regal Mantle"
+	item_path = /obj/item/clothing/suit/hooded/cloak/red_regal_mantle
+	donator_only = TRUE
+	requires_purchase = FALSE

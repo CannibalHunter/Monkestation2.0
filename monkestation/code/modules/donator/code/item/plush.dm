@@ -200,7 +200,7 @@
 	icon_state = "monkey_plushie"
 
 /obj/item/toy/plush/kumoko_san
-	name = "\improperKumoko San Plush"
+	name = "\improper Kumoko San Plush"
 	desc = "It's like that time I was reincarnated into a space man, but with a spider."
 	icon = 'monkestation/code/modules/donator/icons/obj/plushes.dmi'
 	icon_state = "kumoko_san"

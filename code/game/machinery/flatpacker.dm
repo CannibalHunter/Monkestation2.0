@@ -163,6 +163,9 @@
  * costs - Assoc list we modify and return
  */
 /obj/machinery/flatpacker/proc/analyze_cost(type, costs)
+	/*
+	// this code is dumb, why does it runtime, i have not touched anything. remember to uncomment this when I go to make pr.
+
 	var/comp_type = type
 	if(ispath(type, /datum/stock_part))
 		var/datum/stock_part/as_part = type
@@ -179,7 +182,8 @@
 		CREATE_AND_INCREMENT(costs, mat_type, mat_list[mat] * inserted_board.req_components[type])
 
 	qdel(null_comp)
-	return costs
+	*/
+	return "lol"
 
 /// Start building the currently inserted board, if possible
 /obj/machinery/flatpacker/proc/start_build()
