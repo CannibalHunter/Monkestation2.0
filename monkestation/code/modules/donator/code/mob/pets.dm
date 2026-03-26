@@ -485,7 +485,7 @@
 	return ..()
 
 /mob/living/basic/pet/yato_neco_arc/get_scream_sound()
-	return 'monkestation/code/modules/donator/sounds/neco_arc.ogg'
+	return pick('monkestation/code/modules/donator/sounds/neco_arc_1.ogg','monkestation/code/modules/donator/sounds/neco_arc_2.ogg','monkestation/code/modules/donator/sounds/neco_arc_3.ogg')
 
 /mob/living/basic/pet/yato_neco_arc/get_laugh_sound()
-	return 'monkestation/code/modules/donator/sounds/neco_arc.ogg'
+	return pick('monkestation/code/modules/donator/sounds/neco_arc_1.ogg','monkestation/code/modules/donator/sounds/neco_arc_2.ogg','monkestation/code/modules/donator/sounds/neco_arc_3.ogg')
