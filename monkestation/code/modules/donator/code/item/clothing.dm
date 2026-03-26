@@ -973,8 +973,8 @@
 	flags_inv = HIDEEARS|HIDEEYES|HIDEFACE|HIDEHAIR|HIDEFACIALHAIR|HIDESNOUT
 
 /obj/item/clothing/suit/costume/tsukihime_executor
-	name = "executor outfit"
-	desc = "A holy blue dress."
+	name = "executor dress"
+	desc = "The Garb of God's Strongest Soldiers."
 	icon = 'monkestation/code/modules/donator/icons/obj/clothing.dmi'
 	worn_icon = 'monkestation/code/modules/donator/icons/mob/clothing.dmi'
 	icon_state = "tsukihime_executor"

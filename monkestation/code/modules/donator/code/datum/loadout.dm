@@ -1096,13 +1096,13 @@
 
 // Yatosamasensei
 /datum/loadout_item/suit/tsukihime_executor
-	name = "Executor Outfit"
+	name = "Executor Dress"
 	item_path = /obj/item/clothing/suit/costume/tsukihime_executor
 	donator_only = TRUE
 	requires_purchase = FALSE
 
 /datum/loadout_item/plushies/kumoko_san
-	name = "Kumoko San Plush"
+	name = "Kumoku-San Plush"
 	item_path = /obj/item/toy/plush/kumoko_san
 	donator_only = TRUE
 	requires_purchase = FALSE
