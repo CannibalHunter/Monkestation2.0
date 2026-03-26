@@ -481,7 +481,7 @@
 	ckeywhitelist = list("Yatosamasensei")
 
 /mob/living/basic/pet/yato_neco_arc/death(gibbed)
-	owner.emote("scream")
+	emote("scream")
 	return ..()
 
 /mob/living/basic/pet/yato_neco_arc/get_scream_sound()
