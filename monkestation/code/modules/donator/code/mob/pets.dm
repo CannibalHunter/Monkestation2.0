@@ -479,3 +479,13 @@
 	gold_core_spawnable = NO_SPAWN
 	ai_controller = /datum/ai_controller/basic_controller/
 	ckeywhitelist = list("Yatosamasensei")
+
+/mob/living/basic/pet/yato_neco_arc/death(gibbed)
+	owner.emote("scream")
+	return ..()
+
+/mob/living/basic/pet/yato_neco_arc/get_scream_sound()
+	return 'monkestation/code/modules/donator/sounds/neco_arc.ogg'
+
+/mob/living/basic/pet/yato_neco_arc/get_laugh_sound()
+	return 'monkestation/code/modules/donator/sounds/neco_arc.ogg'
